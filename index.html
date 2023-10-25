@@ -18,8 +18,7 @@
                     <span class="mr5 txcolors color-blu br-10">Add Task</span>
                     <span class="color-gray br-10 pd3">Add Section</span>
                 </section>
-                            <!--inizio prima colonna -->
-                    <section>                     
+                        <!--inizio prima colonna -->                                     
                             <button class="accordion"><h3>&#9660New Task</h3></button>
                                 <div class="ml10">    
                                     <p  class="pd3">
@@ -83,60 +82,23 @@
 
                                 </div>
 
-                                                    <script>
-                                                    var acc = document.getElementsByClassName("accordion");
-                                                    var i;
-
-                                                    for (i = 0; i < acc.length; i++) {
-                                                    acc[i].addEventListener("click", function() {
-                                                        this.classList.toggle("active");
-                                                        var panel = this.nextElementSibling;
-                                                        if (panel.style.display === "block") {
-                                                        panel.style.display = "none";
-                                                        } else {
-                                                        panel.style.display = "block";
-                                                        }
-                                                    });
-                                                    }
-                                                    </script>
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+            panel.style.display = "none";
+            } else {
+            panel.style.display = "block";
+            }
+            });
+            }
+        </script>
                     
-                    </section>
-                
-
-
-
-
-
-
-
-
+                    </section>               
             </main>
-        
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     </body>
 </html>
