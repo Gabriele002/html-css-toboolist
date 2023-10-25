@@ -16,8 +16,8 @@ main{
     margin: 0 auto;
 }
 
-.mr10{
-    margin-right: 10px;
+.mr5{
+    margin-right: 5px;
 }
 
 .ml10{
@@ -38,19 +38,15 @@ main{
 }
   .mb40{
     margin-bottom: 40px;
-  }
+}
 
   .pd3{
     padding: 3px;
-  }
+}
 
-
-
-
-
-  .accordion {
+.accordion {
     background-color: #ffffff;
-    color: #000000;
+     color: #000000;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -59,10 +55,10 @@ main{
     outline: none;
     font-size: 15px;
     transition: 0.4s;
-  }
+}
 
 
-  .circle-green { 
+.circle-green { 
     border: 1px solid rgb(52, 175, 144); 
     border-radius: 50%;
     padding: 2px;
@@ -70,24 +66,45 @@ main{
     padding-bottom: 2px;
      padding-left: 8px;
      padding-right: 8px;
-     
-    }
-     
-    .color-tex{
-        color: rgb(52, 175 , 144);
-    }
+}
 
-    .color-tex-white{
-        color: #ffffff;
-    }
+.circle-red { 
+    border: 1px solid rgb(241, 0, 0); 
+    border-radius: 50%;
+    padding: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
 
-    .dimension-tex{
-        font-size: small;
-    }
+.color-tex-red{
+     color: rgb(255, 4, 4);
+}
+     
+.color-tex{
+    color: rgb(52, 175 , 144);
+}
+
+.color-tex-white{
+    color: #ffffff;
+}
+
+.dimension-tex{
+    font-size:x-small;
+}
     
-    .color-purple{
-        background-color: rgb(175, 44, 147);
-        padding: 3px;
-    }
+.color-purple{
+    background-color: rgb(247, 12, 196);
+     padding: 3px;
+}
 
+.color-orange{
+     background-color: rgb(255, 128, 69);
+     padding: 3px;
+}    
   
+.color-green{
+    background-color: rgb(104, 190, 64);
+    padding: 3px;
+}
