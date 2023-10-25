@@ -62,13 +62,19 @@ main{
   }
 
 
-  .circle-red { 
-    border: 1px solid rgb(0, 253, 190); 
+  .circle-green { 
+    border: 1px solid rgb(52, 175, 144); 
     border-radius: 50%;
+    padding: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+     padding-left: 8px;
+     padding-right: 8px;
+     
     }
      
     .color-tex{
-        color: rgb(0, 253 , 190);
+        color: rgb(52, 175 , 144);
     }
 
     .color-tex-white{
