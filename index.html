@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Toboolist" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+    <body>  
+        <header>
+            <img src="./img/Toboolist-logo.jpg" alt="logo-pagina">
+        </header>
+            <main>
+                <section class="mb40">
+                    <span class="mr10 txcolors color-blu br-10">Add Task</span>
+                    <span class="color-gray br-10 pd3">Add Section</span>
+                </section>
+                            <!--inizio prima colonna -->
+                    <section>                     
+                            <button class="accordion"><h3>&#9660New Task</h3></button>
+                                <div class="ml10">    
+                                    <p  class="pd3">
+                                        <span class="circle-red color-tex">&#10003;</span>
+                                         Quarterly Newsletter
+                                         <span class="mr10 txcolors color-blu br-10 color-tex-white dimension-tex">Editorial</span>
+                                    </p>
+                                    <!--fine prima colonna-->
+                                </div>
+
+                            <button class="accordion"><h3>&#9660Today</h3></button>
+                                <div class="ml10">
+                                    <p class="pd3">
+                                        <span class="circle-red color-tex">&#10003;</span>
+                                            Recreuiting blog post 
+                                        <span class="mr10 txcolors color-blu br-10 color-tex-white dimension-tex">Editorial</span>      
+                                    </p>
+
+                                    <p  class="pd3">
+                                        <span class="circle-red color-tex">&#10003;</span>
+                                        Mobile app luaunch
+                                        <span class="mr10 txcolors color-purple br-10 color-tex-white dimension-tex">Q1 Goals</span>
+                                    </p>
+                                    <p  class="pd3">
+                                        <span class="circle-red color-tex">&#10003;</span>
+                                             Interviuw john H.
+                                        <span class="mr10 txcolors color-blu br-10 color-tex-white dimension-tex">Recruting</span>
+                                    </p>
+                                    <p></p>
+                                </div>
+
+                            <button class="accordion">Section 3</button>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+
+                                                    <script>
+                                                    var acc = document.getElementsByClassName("accordion");
+                                                    var i;
+
+                                                    for (i = 0; i < acc.length; i++) {
+                                                    acc[i].addEventListener("click", function() {
+                                                        this.classList.toggle("active");
+                                                        var panel = this.nextElementSibling;
+                                                        if (panel.style.display === "block") {
+                                                        panel.style.display = "none";
+                                                        } else {
+                                                        panel.style.display = "block";
+                                                        }
+                                                    });
+                                                    }
+                                                    </script>
+                    
+                    </section>
+                
+
+
+
+
+
+
+
+
+            </main>
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+</html>
